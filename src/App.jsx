@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:8080";
+const API = "https://cloud-storage-backend-mt47.onrender.com";
 
 function App() {
   const [files, setFiles] = useState([]);
