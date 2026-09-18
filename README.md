@@ -1,16 +1,97 @@
-# React + Vite
+# ☁️ Cloud Storage Service
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cloud-based file storage service developed as part of my Labmentix internship project.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Frontend:**  
+https://cloud-storage-frontend-omega.vercel.app/
 
-## React Compiler
+**Backend:**  
+https://cloud-storage-backend-mt47.onrender.com/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repositories
 
-## Expanding the ESLint configuration
+**Frontend:**  
+https://github.com/pritamkumarjena4662-web/cloud-storage-frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Backend:**  
+https://github.com/pritamkumarjena4662-web/cloud-storage-backend
+
+## ✨ Features
+
+- User registration and login
+- File upload
+- File management
+- Folder creation
+- File and folder listing
+- Search files
+- File metadata management
+- REST API based backend
+- Responsive dashboard
+- PostgreSQL database integration
+- Deployed frontend and backend
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- Vite
+- JavaScript
+- CSS
+
+### Backend
+- Java
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- Maven
+
+### Database
+- PostgreSQL
+- Supabase
+
+### Deployment
+- Vercel — Frontend
+- Render — Backend
+
+## 🏗️ Project Structure
+
+```text
+cloud-storage-service/
+│
+├── backend/
+│   ├── src/
+│   ├── pom.xml
+│   └── Dockerfile
+│
+└── frontend/
+    ├── src/
+    ├── public/
+    ├── package.json
+    └── vite.config.js
+
+    🔌 Backend API
+POST /api/auth/register
+POST /api/auth/login
+
+POST /api/files/upload
+
+GET /api/files
+
+POST /api/folders
+GET /api/folders
+
+
+🎯 Project Objective
+
+The objective of this project is to develop a cloud-based file storage platform that allows users to manage files and folders through a web-based interface using a React frontend, Spring Boot REST API, and PostgreSQL database.
+
+👨‍💻 Developer
+
+Pritam Kumar Jena
+
+BCA Student
+N.C Autonomous College, Jajpur, Odisha
+
+⭐ Developed as part of the Labmentix Internship Project.
